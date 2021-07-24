@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo2 {
+  width: 17vw;
+  height: 7vw;
+  padding: 0vw 5vw;
+}
+ .list2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .list2 li a {
+    display: block;
+    color: #000;
+    padding: 2vw 5vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+  }
+  .nav3{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  .context{
+      color: red;
+      font-size: 4vw;
+     margin-left: 45vw;
+      margin-top: 8vw;
+  }
+  .cont{
+      position: absolute;
+      height: 3vw;
+  }
+  .formm{
+    margin-left: 30vw;
+    margin-top: 5vw;
+    position: absolute;
+  }
+  form label{
+    font-size: 2vw;
+  }
+  form input{
+    font-size: 1vw;
+    height: 2vw;
+    text-align: center;
+    margin: 2vw;
+    border-radius: 4px;
+}
+  
+  .class1{
+    font-size: 2vw;
+    height: 2vw;
+    margin-left: 7vw;
+  }
+ 
+  .chbtn{
+    font-size: 1vw;
+    margin: -4.5vw;
+    margin-left: 3vw;
+    margin-bottom: 1vw;
+  }
+  .fsubmit{
+    margin-left: 25vw;
+    margin-top: 2vw;
+    width: 5vw;
+    height: 2vw;
+    border-radius: 4px;
+    background-color: rebeccapurple;
+    color: white;
+  }
+  li a:hover{
+    color: rgb(72, 172, 230);
+   
+     }
+     .fsubmit:hover{
+      cursor: pointer;
+  }
+     

@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo4{
+    width: 19vw;
+    height: 9vw;
+    padding: 0vw 5vw;
+}
+.ul2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+ .ul2 li a {
+    display: block;
+    color: #000;
+    padding: 2vw 5vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+  }
+  .nav2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  .dataTables_wrapper {
+    position: absolute;
+    clear: both;
+    
+    zoom: 1;
+    width: 48vw;
+    margin-left: 24vw;
+    margin-top: 7vw;
+}
+li a:hover{
+  color: rgb(72, 172, 230);
+ 
+   }
+   .dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    cursor: default;
+    color: #666 !important;
+    border: 1px solid transparent;
+    background: transparent;
+    box-shadow: none;
+    position: inherit;
+}

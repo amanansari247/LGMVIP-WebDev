@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.formm{
+ 
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: auto;
+    width: 18vw;
+    height: 19vw;
+    align-items: center;
+    align-content: center;
+    margin-top: 15vw;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+   
+
+}
+.logtex{
+    text-align: center;
+    font-size: 3vw;
+}
+
+.form3{
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}
+.userclass,.passclass{
+    border-radius: 5px;
+    height: 2vw;
+    margin: 0.5vw;
+    font-size: 1.2vw;
+    text-align: center;
+}
+.btnclass{
+    width: 5vw;
+    height: 2vw;
+    margin-top: 0.5vw;
+    border-radius: 0.4vw;
+    font-size: 1vw;
+    background-color: rebeccapurple;
+    color: white;
+}
+.btnclass:hover{
+    cursor: pointer;
+}
+.navbar{
+  
+}
+.logo {
+    width: 5vw;
+    height: 5vw;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+  
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.sn{
+    margin-left: 2vw;
+    position: absolute;
+    margin-top: -4vw;
+    font-size: 2vw;
+    animation: 2s ease-out 0s 1 slideInright2;
+}
+@keyframes slideInright2 {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .myal{
+    position: absolute;
+    margin-top: 14vw;
+    margin-left: 40.5vw;
+}
+.cete{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 20px;
+}
+  
